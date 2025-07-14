@@ -1,12 +1,13 @@
 {
-  "name": "x-clone",
+  "name": "frontend",
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "build" : "npm install && npm run build --prefix frontend",
-    "dev": "nodemon backend/server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +30,7 @@
     "autoprefixer": "^10.4.21",
     "nodemon": "^3.1.10",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "daisyui": "^4.10.2",
   }
 }
