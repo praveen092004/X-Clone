@@ -10,7 +10,7 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        dark: {
+        twitterdark: {
           primary: "#1d9bf0",
           secondary: "#16181c",
           accent: "#1da1f2",
@@ -24,6 +24,6 @@ module.exports = {
         },
       },
     ],
-    defaultTheme: "dark",
+    defaultTheme: "twitterdark",
   },
 }
