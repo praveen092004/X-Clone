@@ -24,6 +24,6 @@ module.exports = {
         },
       },
     ],
-    defaultTheme: "twitterdark",
+    defaultTheme: "dark",
   },
 }
